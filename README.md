@@ -1,3 +1,9 @@
+# study-react-redux
+
+### Exemplo de troca de informações entre componentes
+
+![alt text](https://github.com/joaopaulonfreitas/study-react-redux/blob/main/assets/sample-without-redux.gif?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,9 +74,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# study-react-redux
-
-### Exemplo de troca de informações entre componentes
-
-![alt text](https://github.com/joaopaulonfreitas/study-react-redux/assets/sample-without-redux.gif?raw=true)
