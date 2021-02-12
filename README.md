@@ -70,3 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # study-react-redux
+
+### Exemplo de troca de informações entre componentes
+
+![alt text](https://github.com/joaopaulonfreitas/study-react-redux/assets/sample-without-redux.gif?raw=true)
