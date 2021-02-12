@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Intervalo from './components/Intervalo'
+import Media from './components/Media'
+import Soma from './components/Soma'
+import Sorteio from './components/Sorteio'
+
+const App = (props) => {
+
+    const [min, setMin] = useState(10)
+    const [max, setMax] = useState(48)
+
+    return (
+        <div className="container mx-auto flex flex-col text-center">
+
+            <h1 className="font-bold text-4xl mb-4">Exercício React-Redux (Simples)</h1>
+
+            <Intervalo min={min} max={max}
+            onMin={setMin}
+            onMax={setMax}
+            ></Intervalo>
+
+            <div className="w-full flex">
+                
+                <Media min={min} max={max}></Media>
+                <Soma min={min} max={max}></Soma>
+                <Sorteio min={min} max={max}></Sorteio>
+
+            </div>
+        </div>
+    )
 }
 
-export default App;
+export default App
